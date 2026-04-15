@@ -13,5 +13,8 @@ public class AppTest {
         // Test 3: có số 0
         int[] case3 = {0};
         System.out.println("Test3: " + App.calculateSum(case3));
+   // Test 4: mix đủ case
+int[] case4 = {5, -3, 0, 2};
+System.out.println("Test4: " + App.calculateSum(case4));
     }
 }
